@@ -1,4 +1,4 @@
-FROM alpine:edge
+FROM lovekl/section
 EXPOSE 3000
 RUN apk update && \
     apk add --no-cache ca-certificates caddy wget && \
